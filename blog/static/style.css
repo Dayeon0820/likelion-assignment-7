@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.logo{
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.new-post{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 5px rgb(255, 153, 0);
+
+}
+
+.a-box{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid white;
+    width: 70%;
+
+}
+
+.post-box{
+    width: 90%;
+    background-color: rgba(255, 153, 0, 0.5);
+    margin-top: 20px;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    height: 485px;
+
+}
+
+.a-date{
+    color: gray;
+}
+
+.paginator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.paginator_p{
+    display: flex;
+    position: absolute;
+    right: 50%;
+    bottom: 3px;
+}
+
+.paginator_p p{
+    font-weight: 600;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.paginator_p p:first-child{
+    opacity: 0.6;
+    font-weight: 550;
+}
+
+.paginator_a a{
+    border: 2px solid rgb(255, 153, 0);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.paginator_a {
+    position: absolute;
+    bottom: 13px;
+    right: 20px;
+}
+
+
+
